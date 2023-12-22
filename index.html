@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="assets/image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <link rel="stylesheet" href="./dist/output.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="https://kit.fontawesome.com/c36b622c4b.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+  <div class="font-limbre flex flex-col items-center text-center">
+    <!-- Header -->
+    <header class="mt-20 mb-8">
+      <img src="./assets/images/logo.svg" alt="ping logo" />
+    </header>
+
+
+    <!-- Description -->
+    <div class="mb-8">
+      <div class="text-3xl m-6">
+        <span class="text-gray">We are launching </span>
+        <span class="font-semibold">soon!</span>
+      </div>
+      <div>Subscribe and get notified</div>
+    </div>
+    
+    
+    <!-- Form -->
+    <div class="flex-col max-w-screen-sm">
+      
+      <form id="form" class="flex flex-col items-center mx-auto w-4/5 mb-10 md:flex-row md:gap-4 md:items-start md:w-[600px]">
+        <div class="w-full text-left">
+          <input type="email" name="email" id="email" placeholder="Your email address" class="w-full border-1 text-veryDarkBlue placeholder:text-gray border-paleBlue rounded-full px-6 py-3"/>
+          <div id="error" class="inline-block pl-8 text-lightRed italic"></div>
+        </div>
+        <button type="submit" class="w-full px-8 py-3 font-semibold bg-blue text-white border-1 border-blue rounded-full shadow-lg shadow-paleBlue hover:bg-paleBlue hover:border-blue hover:text-blue md:w-2/5">Notify Me</button>
+      </form>
+      
+      <!-- Image -->
+      <div>
+        <img src="./assets/images/illustration-dashboard.png" alt="illustration-dashboard" class="w-full mx-auto my-20 block px-14">
+      </div>
+
+    </div>
+
+
+    <!-- Socials -->
+    <div class="flex justify-center gap-3 mt-20">
+      <!-- Facebook --> 
+      <div class="flex justify-center items-center border-1 border-paleBlue rounded-full w-8 h-8 text-blue hover:bg-blue hover:text-white transition-transform duration-300 transform hover:scale-125">
+        <a href="https://www.facebook.com/">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </div>
+      
+      
+      <!-- Twitter -->
+      <div class="flex justify-center items-center border-1 border-paleBlue rounded-full w-8 h-8 text-blue hover:bg-blue hover:text-white transition-transform duration-300 transform hover:scale-125">
+        <a href="https://twitter.com/">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+
+      <!-- Instagram -->
+      <div class="flex justify-center items-center border-1 border-paleBlue rounded-full w-8 h-8 text-blue hover:bg-blue hover:text-white transition-transform duration-300 transform hover:scale-125">
+        <a href="https://www.instagram.com//">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-xs text-gray text-center mt-8 mb-4">
+      &copy; Copyright Ping. All rights reserved.
+    </div>
+    
+  
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p class="attribution mb-4">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/kylie-kiaying">Kylie Chua</a>.
+    </p>
+  </footer>
+
+</body>
+</html>
