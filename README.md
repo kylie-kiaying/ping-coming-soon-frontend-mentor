@@ -33,9 +33,13 @@ Users should be able to:
 <br>
 <img src="assets/images/desktop-screenshot.png" alt="desktop view" width="800">
 <br><br>
+<div> Error States </div>
+<img src="assets/images/errorstate1.png" alt="error state 1" width="400">
+<img src="assets/images/errorstate2.png" alt="error state 2" width="400">
+<br><br>
 <div> Mobile View </div>
 <br>
-<img src="assets/images/mobile-screenshot.png" alt="mobile view" width="600">
+<img src="assets/images/mobile-screenshot.png" alt="mobile view" width="400">
 
 
 
