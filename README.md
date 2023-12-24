@@ -29,12 +29,18 @@ Users should be able to:
 	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
 ### Screenshot
+<div> Desktop View </div>
+<br>
+<img src="assets/images/desktop-screenshot.png" alt="desktop view" width="800">
+<br><br>
+<div> Mobile View </div>
+<br>
+<img src="assets/images/mobile-screenshot.png" alt="mobile view" width="600">
 
-![](./screenshot.jpg)
 
 
 ### Links
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -43,9 +49,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Tailwind CSS
-
-
-### What I learned
+- Javascript
 
 
 ## Author
